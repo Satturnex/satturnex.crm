@@ -6,4 +6,7 @@ dist/
 *.tsbuildinfo
 .env.*
 !.env.example
-supabase/
+supabase/*
+!supabase/migrations/
+supabase/migrations/*
+!supabase/migrations/20261020_orcamentos_satturnex.sql
